@@ -1,5 +1,6 @@
 #include "sort.h"
-/*
+
+/**
  * bubble_sort - implementation of bubble sort
  *
  * @array: array to be sorted
@@ -32,4 +33,3 @@ void bubble_sort(int *array, size_t size)
 		print_array(array, size);
 	}
 }
-
