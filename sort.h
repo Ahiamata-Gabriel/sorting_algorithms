@@ -4,7 +4,7 @@
 #include <stdio.h>
 
 void print_array(const int *array, size_t size);
-void swap(int *a, int *b);
+void swap(int *xp, int *yp);
 
 /**
  * struct listint_s - Doubly linked list node
