@@ -28,6 +28,6 @@ void counting_sort(int *array, size_t size);
 /*Selection sort*/
 void selection_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
-
+listint_t *create_listint(const int *array, size_t size);
 
 #endif
