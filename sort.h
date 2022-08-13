@@ -4,6 +4,7 @@
 #include <stdio.h>
 
 void print_array(const int *array, size_t size);
+void swap_elements(int *a, int *b);
 
 /**
  * struct listint_s - Doubly linked list node
@@ -29,5 +30,6 @@ void counting_sort(int *array, size_t size);
 void selection_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
 listint_t *create_listint(const int *array, size_t size);
-
+size_t partition(int *array, ssize_t lo, ssize_t hi, size_t size);
+void q_sort(int *array, ssize_t lo, ssize_t hi, size_t size);
 #endif
