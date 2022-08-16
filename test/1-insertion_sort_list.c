@@ -1,4 +1,4 @@
-#include "sort.h"
+#include "../sort.h"
 
 /**
  * swap_left -swap two nodes right left position
